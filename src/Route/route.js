@@ -5,7 +5,7 @@ import Contacto from "../frontend/contacto";
 
 const route = [
     {
-        path: '/Inicio',
+        path: '/store',
         component: Resume
     },
     {

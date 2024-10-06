@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/Inicio/static/css/main.0f0ac683.css",
-    "main.js": "/Inicio/static/js/main.ac826b7e.js",
-    "static/js/453.133165d3.chunk.js": "/Inicio/static/js/453.133165d3.chunk.js",
-    "static/media/imagen_retinopatia.png": "/Inicio/static/media/imagen_retinopatia.2025b7366a841a227b54.png",
-    "static/media/imagen_voluntariado.png": "/Inicio/static/media/imagen_voluntariado.25345de69e4eda5daf82.png",
-    "static/media/imagen_modelado3d2_fdd.png": "/Inicio/static/media/imagen_modelado3d2_fdd.00c3c755e10968df44c0.png",
-    "static/media/imagen_circuito2_fdd.jpg": "/Inicio/static/media/imagen_circuito2_fdd.b141b9aa45e3955c07ba.jpg",
-    "static/media/imagen_circuito_fdd.png": "/Inicio/static/media/imagen_circuito_fdd.9e0f394da239d9d07030.png",
-    "static/media/imagen_pagina_fdd.png": "/Inicio/static/media/imagen_pagina_fdd.796f40bd0033ce0afd5e.png",
-    "static/media/img_portfolio.png": "/Inicio/static/media/img_portfolio.6f56809dbd348745168f.png",
-    "static/media/imagen_foto_constancia_britanico.png": "/Inicio/static/media/imagen_foto_constancia_britanico.a890d328d70586bd5b25.png",
-    "static/media/imagen_pagina2_fdd.jpg": "/Inicio/static/media/imagen_pagina2_fdd.e1b240c3a465f4fbcf4a.jpg",
-    "static/media/Foto_cara_Carnet-sin_fondo.png": "/Inicio/static/media/Foto_cara_Carnet-sin_fondo.ece5087b8873b37872d7.png",
-    "static/media/imagen_modelado3d_fdd.png": "/Inicio/static/media/imagen_modelado3d_fdd.274620c267a43f9b323d.png",
-    "static/media/imagen_pasantia.png": "/Inicio/static/media/imagen_pasantia.3e5bdf16b296ba1230a1.png",
-    "static/media/image_aws.png": "/Inicio/static/media/image_aws.ed02606ef02bfdb533f2.png",
-    "static/media/proyecto_progra_avanzada.jpg": "/Inicio/static/media/proyecto_progra_avanzada.a97e62acc5b36cb2bdc9.jpg",
-    "static/media/proyecto_fdd_image.PNG": "/Inicio/static/media/proyecto_fdd_image.bc60003bf7e69c18008f.PNG",
-    "index.html": "/Inicio/index.html",
-    "main.0f0ac683.css.map": "/Inicio/static/css/main.0f0ac683.css.map",
-    "main.ac826b7e.js.map": "/Inicio/static/js/main.ac826b7e.js.map",
-    "453.133165d3.chunk.js.map": "/Inicio/static/js/453.133165d3.chunk.js.map"
+    "main.css": "/store/static/css/main.0f0ac683.css",
+    "main.js": "/store/static/js/main.072dab56.js",
+    "static/js/453.133165d3.chunk.js": "/store/static/js/453.133165d3.chunk.js",
+    "static/media/imagen_retinopatia.png": "/store/static/media/imagen_retinopatia.2025b7366a841a227b54.png",
+    "static/media/imagen_voluntariado.png": "/store/static/media/imagen_voluntariado.25345de69e4eda5daf82.png",
+    "static/media/imagen_modelado3d2_fdd.png": "/store/static/media/imagen_modelado3d2_fdd.00c3c755e10968df44c0.png",
+    "static/media/imagen_circuito2_fdd.jpg": "/store/static/media/imagen_circuito2_fdd.b141b9aa45e3955c07ba.jpg",
+    "static/media/imagen_circuito_fdd.png": "/store/static/media/imagen_circuito_fdd.9e0f394da239d9d07030.png",
+    "static/media/imagen_pagina_fdd.png": "/store/static/media/imagen_pagina_fdd.796f40bd0033ce0afd5e.png",
+    "static/media/img_portfolio.png": "/store/static/media/img_portfolio.6f56809dbd348745168f.png",
+    "static/media/imagen_foto_constancia_britanico.png": "/store/static/media/imagen_foto_constancia_britanico.a890d328d70586bd5b25.png",
+    "static/media/imagen_pagina2_fdd.jpg": "/store/static/media/imagen_pagina2_fdd.e1b240c3a465f4fbcf4a.jpg",
+    "static/media/Foto_cara_Carnet-sin_fondo.png": "/store/static/media/Foto_cara_Carnet-sin_fondo.ece5087b8873b37872d7.png",
+    "static/media/imagen_modelado3d_fdd.png": "/store/static/media/imagen_modelado3d_fdd.274620c267a43f9b323d.png",
+    "static/media/imagen_pasantia.png": "/store/static/media/imagen_pasantia.3e5bdf16b296ba1230a1.png",
+    "static/media/image_aws.png": "/store/static/media/image_aws.ed02606ef02bfdb533f2.png",
+    "static/media/proyecto_progra_avanzada.jpg": "/store/static/media/proyecto_progra_avanzada.a97e62acc5b36cb2bdc9.jpg",
+    "static/media/proyecto_fdd_image.PNG": "/store/static/media/proyecto_fdd_image.bc60003bf7e69c18008f.PNG",
+    "index.html": "/store/index.html",
+    "main.0f0ac683.css.map": "/store/static/css/main.0f0ac683.css.map",
+    "main.072dab56.js.map": "/store/static/js/main.072dab56.js.map",
+    "453.133165d3.chunk.js.map": "/store/static/js/453.133165d3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0f0ac683.css",
-    "static/js/main.ac826b7e.js"
+    "static/js/main.072dab56.js"
   ]
 }
