@@ -1,0 +1,255 @@
+body::-webkit-scrollbar {
+  width: 12px;             
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(197, 197, 177);       
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(222, 222, 231);  
+  border-radius: 20px;       
+  border: 3px solid rgb(97, 97, 96);  
+}
+
+
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  background-color: #fff; /* Cambiar el color de fondo */
+  height: 100%;
+}
+
+.body-segundo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  background-color: #dadada96; /* Mantener el mismo color de fondo */
+  height: 100%;
+  width: 100%;
+  margin-top: 2%;
+  box-shadow: 0 0 0 3px #52939e;
+}
+
+.section-2 {
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 6px 11px rgba(0, 0, 0, 0.1); /* Sombra para el efecto de sobresalir */
+}
+
+.tarjeta-2 {
+  position: relative;
+  margin-top: 4%;
+}
+
+.card-2 {
+  display: flex;
+  width: 900px;
+  height: 400px;
+  padding: 40px;
+  background: #f5f5f5; /* COLOR DEL FONDO DEL CARD */
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.text-2 {
+  width: 350px;
+}
+
+.img-2 {
+  position: absolute;
+  width: 180px;
+  z-index: 1;
+  top: 120px;
+  right: 140px;
+  border-radius: 200px;
+}
+
+.circulo-2 {
+  position: relative;
+  background: #cec35d;
+  border-radius: 50%;
+  width: 220px;
+  height: 220px;
+  top: 200px;
+  right: -80px;
+  z-index: 0;
+}
+
+.circulo2-2 {
+  position: relative;
+  background: #fd6f0a2d;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  top: -70px;
+  right: -110px;
+  z-index: 0;
+}
+
+.circulo3-2 {
+  position: relative;
+  background: #fd6f0a0e;
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  top: -310px;
+  right: -150px;
+  z-index: 0;
+}
+
+.abajo-2 {
+  display: flex;
+  width: 600px;
+  height: 80px;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(75, 108, 183); /* COLOR DE LA BARRA DE ABAJO */
+  border-radius: 100px;
+  box-shadow: 2px 3px 15px #ECF0F1;
+}
+
+.barrainferior-2 {
+  position: relative;
+  top: -80px;
+  z-index: 2;
+}
+
+h1 {
+  color: #15295f;
+  font-size: 40px;
+}
+
+h2 {
+  color: #15295f;
+}
+
+h3 {
+  color: #15295f;
+}
+
+h5 {
+  color: #000000;
+}
+
+p {
+  color: #050505;
+  font-size: 14px;
+}
+
+.icono-2 {
+  width: 50px;
+}
+
+.logos-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%; /* Asegurar que ocupe todo el ancho de la ventana */
+  margin: 0; /* Eliminar el margen */
+  background-color: #ebe9e9; /* Mantener el mismo color de fondo */
+  min-height: auto;
+  flex-wrap: wrap;
+  box-sizing: border-box; /* Incluir padding en el tamaño total */
+  box-shadow: 0 0 0 3px #52939e;
+}
+
+
+.card {
+  position: relative;
+  width: 460px;
+  aspect-ratio: 16/9;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  perspective: 1000px;
+  box-shadow: 0 0 0 3px #52939e; /* Cambiar el color del borde para combinar con el fondo */
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  margin: 20px; /* DISTANCIA ENTRE CADA CARTA */
+}
+
+.card__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+}
+
+.card__content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+  transform: rotateX(-90deg);
+  transform-origin: bottom;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  pointer-events: none;
+}
+
+.card:hover .card__content {
+  transform: rotateX(0deg);
+  pointer-events: auto;
+}
+
+.card__title {
+  margin: 0;
+  font-size: 35px;
+  color: #333;
+  font-weight: 700;
+  margin-top: -8px;
+}
+
+.card:hover svg {
+  scale: 0;
+}
+
+.card__description {
+  margin: 10px 0 10px;
+  font-size: 15px;
+  color: #777;
+  line-height: 1.4;
+}
+
+.card__button {
+  padding: 15px;
+  border-radius: 8px;
+  background: #777;
+  border: none;
+  color: white;
+  cursor: pointer;
+  text-decoration: none; /*  no tengan subrayado */
+  display: inline-block; 
+}
+
+.card__button.secondary {
+  background: transparent;
+  color: #777;
+  border: 1px solid #777;
+}

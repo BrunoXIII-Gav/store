@@ -1,0 +1,57 @@
+nav {
+  display: flex;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  background: linear-gradient(90deg, #4563a8 0%, #182848 100%);
+  font-family: sans-serif;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 0 120px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  justify-content: space-between; 
+  z-index: 1000;
+}
+
+nav .logo {
+  font-size: 24px;
+  font-weight: black;
+  color: #fff; /* Cambiar el color del texto del logo */
+}
+
+nav .barnav {
+  display: flex;
+  grid-template-columns: repeat(4, auto);
+  margin-right: 90px;
+  width: 50%;
+  justify-content: space-between;
+}
+
+nav .barnav .bar {
+  padding: 30px 10px;
+  color: #fff; /* Cambiar el color del texto de los enlaces */
+  text-decoration: none;
+  transition: background 0.3s, color 0.3s, transform 0.3s; /* Añadir transición para un efecto suave */
+}
+
+nav .barnav .bar:hover {
+  cursor: pointer;
+  background: #7bd370;
+  color: #000; /* Cambiar el color del texto al pasar el ratón */
+  transform: scale(1.1);
+  border-radius: 5px;
+}
+
+nav .barnav .bar.activate {
+  border-bottom: 3px solid #68cc5b; /* Añadir un indicador de la página activa */
+}
+
+.contenido {
+  height: 1100px;
+  margin-top: 60px;
+}
+
+.imagen_navegar {
+  width: 180px;
+}
