@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/store/static/css/main.0f0ac683.css",
-    "main.js": "/store/static/js/main.072dab56.js",
+    "main.js": "/store/static/js/main.f0d8ec8e.js",
     "static/js/453.133165d3.chunk.js": "/store/static/js/453.133165d3.chunk.js",
     "static/media/imagen_retinopatia.png": "/store/static/media/imagen_retinopatia.2025b7366a841a227b54.png",
     "static/media/imagen_voluntariado.png": "/store/static/media/imagen_voluntariado.25345de69e4eda5daf82.png",
@@ -20,11 +20,11 @@
     "static/media/proyecto_fdd_image.PNG": "/store/static/media/proyecto_fdd_image.bc60003bf7e69c18008f.PNG",
     "index.html": "/store/index.html",
     "main.0f0ac683.css.map": "/store/static/css/main.0f0ac683.css.map",
-    "main.072dab56.js.map": "/store/static/js/main.072dab56.js.map",
+    "main.f0d8ec8e.js.map": "/store/static/js/main.f0d8ec8e.js.map",
     "453.133165d3.chunk.js.map": "/store/static/js/453.133165d3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0f0ac683.css",
-    "static/js/main.072dab56.js"
+    "static/js/main.f0d8ec8e.js"
   ]
 }
