@@ -12,7 +12,7 @@ function Navigation() {
                 <img src={fot_portfolio} alt="Proyecto FDD" className="imagen_navegar" />
             </div>
             <div className='barnav'>
-                <Link to='/' className={`bar ${location.pathname==='/Inicio' ? 'activate':''}`}>Inicio</Link>
+                <Link to='/' className={`bar ${location.pathname==='/store' ? 'activate':''}`}>Inicio</Link>
                 <Link to='/proyectos' className={`bar ${location.pathname==='/proyectos' ? 'activate':''}`}>Proyecto</Link>
                 <Link to='/Contacto' className={`bar ${location.pathname==='/Contacto' ? 'activate' : ''}`}> Contacto</Link>
             </div>
@@ -30,7 +30,7 @@ function RouteControler() {
                 {route.map((route, index) => (
                     <Route key={index} path={route.path} element={<route.component />} />
                 ))}
-                <Route path="/" element={<Navigate to='/Inicio' />} />
+                <Route path="/" element={<Navigate to='/store' />} />
             </Routes>
         </Router>
     );
